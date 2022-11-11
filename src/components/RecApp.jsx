@@ -3,10 +3,10 @@
 export const RecApp = () => {
   return (
     <>
-        <div class="box">
-             <div class="container-1">
+        <div className="box">
+             <div className="container-1">
 
-              <span class="icon"><i class="fa fa-search"></i></span>
+              <span className="icon"><i className="fa fa-search"></i></span>
                   <input 
                   type="search" 
                   id="search" 
