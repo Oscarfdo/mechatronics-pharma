@@ -57,9 +57,9 @@ export const Registro = () => {
                 >
                     <Grid item xs={6} sx={{mt:2}}>
                             <TextField
-                                label="Username"
-                                type="usuario"
-                                placeholder='Nombre de Usuario'
+                                label="Correo"
+                                type="correo"
+                                placeholder='Correo'
                                 fullWidth
                             />
                     </Grid>

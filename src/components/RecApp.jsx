@@ -1,4 +1,4 @@
-
+import QRCode from "react-qr-code"
 
 export const RecApp = () => {
   return (
@@ -13,11 +13,24 @@ export const RecApp = () => {
                   placeholder="Introduzca medicamento..." />
 
              </div>
+        </div >
+
+        <div className="cuadropequeño">
+        <p>farmaco 1 </p>
+        <p>farmaco 2 </p>
+        <p>farmaco 3 </p>
         </div>
 
+    
+
+    <div className="qr"> 
+    
+    <QRCode value = "farmaco" size={128}/>
+
+    </div>
+
     <div>
-
-
+      <button className="button button1">Imprimir</button>
     </div>
     </>
   )
