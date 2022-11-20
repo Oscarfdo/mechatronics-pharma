@@ -25,7 +25,7 @@ export const RecApp = () => {
 
     <div className="qr"> 
     
-    <QRCode value = "farmaco" size={128}/>
+    <QRCode value = "https://www.youtube.com/" size={128}/>
 
     </div>
 
