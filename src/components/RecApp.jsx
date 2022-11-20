@@ -1,4 +1,6 @@
 import QRCode from "react-qr-code"
+import {Example} from "../components/Imprimir"
+
 
 export const RecApp = () => {
   return (
@@ -22,16 +24,13 @@ export const RecApp = () => {
         </div>
 
     
+  <div>
 
-    <div className="qr"> 
-    
-    <QRCode value = "https://www.youtube.com/" size={128}/>
+  <Example className="qr"/>
+  
+  </div>
 
-    </div>
-
-    <div>
-      <button className="button button1">Imprimir</button>
-    </div>
+  
     </>
   )
 }
