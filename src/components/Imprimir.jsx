@@ -1,11 +1,14 @@
 import QRCode from "react-qr-code"
 import React, {Component} from 'react';
 import ReactToPrint from "react-to-print";
+import medicamento from '../components/Suggest';
 
  export class ComponentToPrint extends React.Component {
+
     render() {
+      
       return (
-        <QRCode value = "https://www.youtube.com/" size={128}/>
+        <QRCode value = "no" size={128}/>
       );
     }
   }
