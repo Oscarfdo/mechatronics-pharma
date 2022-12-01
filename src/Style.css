@@ -3,11 +3,36 @@ body{
     background-image: url(https://lagupres.com/wp-content/uploads/2017/12/13640962_ml.jpg);
     
   }
+.qr{
+  margin-top: 50px;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
 .cuadro{
   background-color: #a5b1c2a2;
   height: 60vh;
   margin: 15%;
+  border-radius: 8px;
+
+ 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cuadropequeño{
+  background-color: #a5b1c2a2;
+  height: 30vh;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
   border-radius: 8px;
 
  

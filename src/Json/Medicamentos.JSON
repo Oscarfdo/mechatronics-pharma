@@ -1,0 +1,25 @@
+{
+    "Paracetamol":{
+        "id":"312"
+    },
+
+    "Ibuprofeno":{
+        "id":"543"
+    },
+
+    "Alka-Seltzser":{
+        "id":"765"
+    },
+
+    "Naproxeno":{
+        "id":"987"
+    },
+
+    "Diclofenaco":{
+        "id":"234"
+    },
+
+    "Amoxicilina":{
+        "id":"456"
+    }
+}
